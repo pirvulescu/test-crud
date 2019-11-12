@@ -1,0 +1,8 @@
+default:
+  autoload:
+    '': '%paths.base%/features/bootstrap'
+
+  suites:
+    tests:
+      paths:
+        - '%paths.base%/features'
