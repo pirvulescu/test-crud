@@ -10,30 +10,7 @@ class FeatureContext implements Context
 {
 
     protected $client;
-
-    /**
-     * The current resource
-     */
-    protected $resource;
-
-    /**
-     * The request payload
-     */
-    protected $requestPayload;
-
-    /** @var \GuzzleHttp\Psr7\Response */
     protected $response;
-
-    /**
-     * The decoded response object.
-     */
-    protected $responsePayload;
-
-    /**
-     * The current scope within the response payload
-     * which conditions are asserted against.
-     */
-    protected $scope;
 
     public function __construct()
     {
